@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Iqbal Hydraulics</title>
+<link rel="stylesheet" href="style.css" />
+<!-- Apple Touch Icons (iOS) -->
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+
+<!-- Android & Standard Favicons -->
+<link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+<!-- Manifest & Windows Tiles -->
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+<body>
+
+<header>
+    <div class="logo-row">
+    <img src="red-hydraulic-logo.png" alt="Iqbal Hydraulics Logo" class="L-logo" />
+    <h1 class="site-title">Iqbal Hydraulics</h1>
+    <br>
+   
+    <img src="Industrial _IH_ Logo .png" alt="Iqbal Hydraulics Industrial logo" class="R-logo" />
+    </div>
+        <h2 class="area">Industrial Area Kuwait Al-Shuwaikh</h2>
+        <h3 class="arbi" style="color:#83aeff;">شركة أبراج الكويت العالمية للبيع بالتجزئة لقطع غيار السيارات وتوابعها</h3>
+
+     <br>
+    
+    <nav>
+        <a href="#" id="homeTab" class="active">Home</a>
+        <a href="#" id="galleryTab">Work Gallery</a>
+    </nav>
+</header>
+
+<section id="hero" class="hero">
+<div class="intro-blur">
+  <h1 id="intro">Welcome to Our Hydraulic Workshop</h1>
+</div>    <p>Expert repairs, maintenance, and custom builds.</p>
+    <h4 id="visit" >Visit us at our workshop</h4>
+    <button class="btn" onclick="getDirections()">📍 Get Directions</button>
+</section>
+
+<section id="about">
+    <h2 class="headings">About Us</h2>
+    <p>With nearly 30 years of experience in heavy hydraulic vehicle repair, our mechanics have mastered everything from hydraulic system overhauls to precision transmission work on dumper trucks, tow trucks, and car transporters. Led by our founder, Iqbal Rana, their unmatched expertise and dedication ensure that every vehicle receives top-quality service, backed by decades of proven skill and customer trust.</p>
+</section>
+
+<section id="mechanics">
+    <h2 class="headings">Our Mechanic</h2>
+
+    <!-- Mechanic 1 -->
+    <div class="mechanic-profile">
+        <div class="mechanic-card">
+            <div class="mechanic-row">
+                <div class="mechanic-image">
+                    <img src="papa.jpg" alt="Iqbal Rana" />
+                </div>
+                <div class="mechanic-info">
+                    <h2>Iqbal Rana</h2>
+                    <p><strong>Founder & Master Mechanic</strong></p>
+                    <p>With 30 years of experience in heavy hydraulic vehicle repair, Iqbal specializes in hydraulic systems, transmission work, and large vehicle servicing including dumper trucks, tow trucks, and car carriers.</p>
+                    <a href="https://wa.me/96566656487" target="_blank" class="whatsapp-btn">💬 Chat on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- Mechanic 2 -->
+ <div class="m-2">
+    <div class="mechanic-profile">
+        <div class="mechanic-card">
+            <div class="mechanic-row reverse">
+                <div class="mechanic-image">
+                    <img src="malik.png" alt="Abdul Malik" />
+                </div>
+                <div class="mechanic-info">
+                    <h2>Abdul Malik</h2>
+                    <p><strong>Experienced Mechanic</strong></p>
+                    <p>Specialist in hydraulic repairs, jack restoration, and advanced lifting machinery maintenance, delivering high-quality service for all heavy-duty transport vehicles.</p>
+                    <a href="https://wa.me/96551218361" target="_blank" class="whatsapp-btn">💬 Chat on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section id="contact">
+    <br>
+    <br><br> <br><br><br><br><br><br><br><br><br><br>
+    <br>
+    <p>__________________________________________________</p>
+    <br>
+    <br>
+    <h2>Contact Us</h2>
+    <p id="contact-blur">Email: iqbalrana87@gmail.com <br> Phone:📞 <a href="tel:+965 666 56487">+965 666 56487</a></p>
+   
+</section>
+
+
+<br><br>
+<!----------------------------------------------------------->
+<section id="gallery">
+    <h2 id="gallery-heading">Gallery</h2>
+    <!-- Top single image -->
+    <div class="gallery-item">
+        <img src="owner.png" alt="Owner" />
+        <div class="gallery-name">Muhammad Iqbal - The Man Who Started It All</div>
+    </div>
+    <!-- Two images side by side, with hover name effect -->
+    <div class="images-section">
+        <div class="image-wrapper">
+            <img src="papa.jpg" alt="Owner-Founder">
+            <div class="image-name">Owner & Founder Iqbal Rana</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="malik.png" alt="Experienced Mechanic">
+            <div class="image-name">Experienced Mechanic Abdul Malik</div>
+        </div>
+    </div>
+    <!-- All other images in a grid, each with hover name effect -->
+     <h3>Items we Sell & Repair</h3>
+    <div class="shop-items">
+          <div class="shop-wrapper">
+            <img src="dukan.jpg" alt="Shop" />
+            <div class="shop-name">Shop</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="7bolt pto set.jpg" alt="7bolt PTO Set" />
+            <div class="shop-name">7-Bolt PTO Set</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="7bolt.jpg" alt="7bolt" />
+            <div class="shop-name">7-Bolt</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="bottle jack.jpg" alt="Bottle Jack" />
+            <div class="shop-name">Bottle Jack</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="bottlejack1.jpg" alt="Bottle Jack 1" />
+            <div class="shop-name">Bottle Jack</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="connextor plate.jpg" alt="Connector Plate" />
+            <div class="shop-name">Connector Plate</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="double gear.jpg" alt="Double Gear" />
+            <div class="shop-name">Double Gear</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="dumper truck.jpg" alt="Dumper Truck" />
+            <div class="shop-name">Dumper Truck Jacks</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="favicon-logo.png" alt="Favicon Logo" />
+        </div>
+        <div class="shop-wrapper">
+            <img src="hpump.jpg" alt="Hydraulic Pump" />
+            <div class="shop-name">Hydraulic Pump</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="hpump1.jpg" alt="Hydraulic Pump" />
+            <div class="shop-name">Hydraulic Pump</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="hpump2.jpg" alt="Hydraulic Pump" />
+            <div class="shop-name">Hydraulic Pump</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="htruck.png" alt="Hydraulic Tow Truck" />
+            <div class="shop-name">Hydraulic Boom Truck Jacks</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="hydraulic hand pump.jpg" alt="Hydraulic Hand Pump" />
+            <div class="shop-name">Hydraulic Hand Pump</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="hydraulic oil pump.jpg" alt="Hydraulic Oil Pump" />
+            <div class="shop-name">Hydraulic Oil Pump</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="hydrolic-truck.jpg" alt="Hydraulic Truck" />
+            <div class="shop-name">Hydraulic Truck Jacks</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="jack.jpg" alt="Jack" />
+            <div class="shop-name">Dumper Truck Jacks</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="maxresdefault.jpg" alt="Maxresdefault" />
+            <div class="shop-name">Maxresdefault</div><!--------------------------------------------------------------->
+        </div>
+        <div class="shop-wrapper">
+            <img src="oil pump.jpg" alt="Oil Pump" />
+            <div class="shop-name">Oil Pump</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="OIP (1).jpg" alt="OIP 1" />
+            <div class="shop-name">Piston Pump</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="OIP (2).jpg" alt="OIP 2" />
+            <div class="shop-name">Hydraulic Jack Cylinder For Tipper Truck</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="OIP (3).jpg" alt="OIP 3" />
+            <div class="shop-name">Tipper Truck Jack</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="OIP (4).jpg" alt="OIP 4" />
+            <div class="shop-name">Hydraulic Oil Tank For Tipper</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="OIP.jpg" alt="OIP" />
+            <div class="shop-name">Crane Combined Boom Truck Jacks</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="piston pump.jpg" alt="Piston Pump" />
+            <div class="shop-name">Piston Pump</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="pto g41.jpg" alt="PTO G41" />
+            <div class="shop-name">PTO G41</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="pto power take off.jpg" alt="PTO Power Take Off" />
+            <div class="shop-name">PTO Power Take Off</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="R.jpg" alt="R" />
+            <div class="shop-name">Loader Crane Jacks</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="tipper complete set.jpg" alt="Tipper Complete Set" />
+            <div class="shop-name">Tipper Complete Set</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="tipper yellow.jpg" alt="Tipper Yellow" />
+            <div class="shop-name">Tipper Jacks</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="tipper.jpg" alt="Tipper" />
+            <div class="shop-name">Tipper Jacks</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="tow truck.jpg" alt="Tow Truck" />
+            <div class="shop-name">Tow Truck</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="transmission jack.jpg" alt="Transmission Jack" />
+            <div class="shop-name">Transmission Jack</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="trolley jack.jpg" alt="Trolley Jack" />
+            <div class="shop-name">Trolley Jack</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="Trolley jack1.jpg" alt="Trolley Jack 1" />
+            <div class="shop-name">Trolley Jacks</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="wench.jpg" alt="Wench" />
+            <div class="shop-name">Car Lifting Winch</div>
+        </div>
+        <div class="shop-wrapper">
+            <img src="wench1.jpg" alt="Wench 1" />
+            <div class="shop-name">Car Lifting Winch</div>
+        </div>
+    </div>
+    <br>
+    <!-- ---------------------------------------------------------------------------------------------- -->
+     <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+    <div class="work">
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="car-carrier.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <img src="jack-reparied.jpg" alt="Jack Reparied">
+    </div>
+    
+    <div class="work-item">
+        <img src="jack-shop.jpg" alt="Jack Shop">
+    </div>
+    <div class="work-item">
+        <img src="m4-fueltank.jpg" alt="M4 Fueltank">
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="m4-oil-change.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="m4-runningcheck.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="m4-jacks.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="jack-repair.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="jack-oilseal.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="inside-jack.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- <div class="work-item">
+        <video autoplay muted loop>
+            <source src="mutiple-jacks.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="m4-testing.mp4" type="video/mp4">
+        </video>
+    </div> -->
+    <div class="work-item">
+        <img src="something.jpg" alt="Something">
+    </div>
+    <div class="work-item">
+        <img src="some-thing.jpg" alt="Some Thing">
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="testing.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <img src="valves.jpg" alt="Valves">
+    </div>
+    <!-- <div class="work-item">
+        <video autoplay muted loop>
+            <source src="jack-testing.mp4" type="video/mp4">
+        </video>
+    </div> -->
+    <div class="work-item">
+        <img src="oil-change.jpg" alt="Oil Change">
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="jack-seals.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- <div class="work-item">
+        <video autoplay muted loop>
+            <source src="jack-polish.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="dumper-jack.mp4" type="video/mp4">
+        </video>
+    </div> -->
+    <div class="work-item">
+        <img src="opened-jack.jpg" alt="Opened Jack">
+    </div>
+    <div class="work-item">
+        <img src="open-jack.jpg" alt="Open Jack">
+    </div>
+    <div class="work-item">
+        <img src="oil-seal.jpg" alt="Oil Seal">
+    </div>
+    <div class="work-item">
+        <img src="control.jpg" alt="Control">
+    </div>
+    <div class="work-item">
+        <img src="controler.jpg" alt="Controler">
+    </div>
+    <div class="work-item">
+        <img src="hydraulic-oil.jpg" alt="Hydraulic Oil">
+    </div>
+    <div class="work-item">
+        <img src="winch.jpg" alt="Winch">
+    </div>
+    <div class="work-item">
+        <img src="oil-controler.jpg" alt="Oil Controler">
+    </div>
+    <div class="work-item">
+        <img src="controler-oil.jpg" alt="Controler Oil">
+    </div>
+    <div class="work-item">
+        <img src="contact.jpg" alt="Contact">
+    </div>
+    <!-- <div class="work-item">
+        <video autoplay muted loop>
+            <source src="m4-visit.mp4" type="video/mp4">
+        </video>
+    </div> -->
+    <div class="work-item">
+        <img src="oil-part.jpg" alt="Oil Part">
+    </div>
+    <div class="work-item">
+        <img src="big-truck.jpg" alt="Big Truck">
+    </div>
+    <div class="work-item">
+        <img src="opened-controler.jpg" alt="Opened Controler">
+    </div>
+    <div class="work-item">
+        <img src="papa-g.jpg" alt="Papa G">
+    </div>
+    <div class="work-item">
+        <img src="oil-chnaging.jpg" alt="Oil Chnaging">
+    </div>
+    <div class="work-item">
+        <img src="oil-can.jpg" alt="Oil Can">
+    </div>
+    <div class="work-item">
+        <img src="shop-inside.jpg" alt="Shop Inside">
+    </div>
+    <div class="work-item">
+        <img src="outter-view.jpg" alt="Outter View">
+    </div>
+    <div class="work-item">
+        <img src="shop-outside.jpg" alt="Shop Outside">
+    </div>
+    <div class="work-item">
+        <img src="wide-area.jpg" alt="Wide Area">
+    </div>
+    <div class="work-item">
+        <img src="precautions.jpg" alt="Precautions">
+    </div>
+    <div class="work-item">
+        <img src="jack-pinpoint.jpg" alt="Jack Pinpoint">
+    </div>
+    <div class="work-item">
+        <img src="pinpoint-repair.jpg" alt="Pinpoint Repair">
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="polish-done.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <img src="pipe-jack.jpg" alt="Pipe Jack">
+    </div>
+    <div class="work-item">
+        <img src="pipe-jack1.jpg" alt="Pipe Jack 1">
+    </div>
+    <div class="work-item">
+        <img src="jack-cylinder.jpg" alt="Jack Cylinder">
+    </div>
+    <!-- <div class="work-item">
+        <video autoplay muted loop>
+            <source src="check-by-papa.mp4" type="video/mp4">
+        </video>
+    </div> -->
+    <div class="work-item">
+        <img src="connected-belt.jpg" alt="Connected Belt">
+    </div>
+    <div class="work-item">
+        <img src="hook.jpg" alt="Hook">
+    </div>
+    <div class="work-item">
+        <img src="small-seals.jpg" alt="Small Seals">
+    </div>
+    <div class="work-item">
+        <img src="apply-seal.jpg" alt="Apply Seal">
+    </div>
+    <div class="work-item">
+        <img src="controler-valve.jpg" alt="Controler Valve">
+    </div>
+    <div class="work-item">
+        <img src="m4-jack.jpg" alt="M4 Jack">
+    </div>
+    <div class="work-item">
+        <img src="m4-jacks.jpg" alt="M4 Jacks">
+    </div>
+    <div class="work-item">
+        <img src="m4-oiling.jpg" alt="M4 Oiling">
+    </div>
+    <div class="work-item">
+        <img src="oil-seals.jpg" alt="Oil Seals">
+    </div>
+    <div class="work-item">
+        <img src="oil-seals-metal.jpg" alt="Oil Seals Metal">
+    </div>
+    <div class="work-item">
+        <img src="metal-rod.jpg" alt="Metal Rod">
+    </div>
+    <div class="work-item">
+        <img src="seals.jpg" alt="Seals">
+    </div>
+    <div class="work-item">
+        <img src="tipper-jack.jpg" alt="Tipper Jack">
+    </div>
+    <div class="work-item">
+        <img src="controllers.jpg" alt="Controllers">
+    </div>
+    <!-- <div class="work-item">
+        <video autoplay muted loop>
+            <source src="tipper-jack-check.mp4" type="video/mp4">
+        </video>
+    </div> -->
+    <div class="work-item">
+        <img src="jack-head.jpg" alt="Jack Head">
+    </div>
+    <div class="work-item">
+        <img src="jack-pins.jpg" alt="Jack Pins">
+    </div>
+    <div class="work-item">
+        <img src="red-oil-seals.jpg" alt="Red Oil Seals">
+    </div>
+    <div class="work-item">
+        <img src="jack-hammer.jpg" alt="Jack Hammer">
+    </div>
+    <div class="work-item">
+        <img src="m4-2jacks.jpg" alt="M4 2Jacks">
+    </div>
+    <div class="work-item">
+        <img src="engine-part.jpg" alt="Engine Part">
+    </div>
+    <div class="work-item">
+        <img src="parts.jpg" alt="Parts">
+    </div>
+    <div class="work-item">
+        <img src="oil-pump.jpg" alt="Oil Pump">
+    </div>
+    <div class="work-item">
+        <img src="springs.jpg" alt="Springs">
+    </div>
+    <div class="work-item">
+        <img src="springs-pump.jpg" alt="Springs Pump">
+    </div>
+    <div class="work-item">
+        <img src="full-pump.jpg" alt="Full Pump">
+    </div>
+    <div class="work-item">
+        <img src="full-process.jpg" alt="Full Process">
+    </div>
+    <div class="work-item">
+        <img src="spare-parts.jpg" alt="Spare Parts">
+    </div>
+    <div class="work-item">
+        <img src="spare-parts1.jpg" alt="Spare Parts 1">
+    </div>
+    <div class="work-item">
+        <img src="spare-parts2.jpg" alt="Spare Parts 2">
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="red-tipper.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="work-item">
+        <img src="kuwait-p.jpg" alt="Kuwait P">
+    </div>
+    <div class="work-item">
+        <img src="seals-black.jpg" alt="Seals Black">
+    </div>
+    <div class="work-item">
+        <img src="new-controller.jpg" alt="New Controller">
+    </div>
+    <div class="work-item">
+        <img src="old-controller.jpg" alt="Old Controller">
+    </div>
+    <div class="work-item">
+        <img src="welding.jpg" alt="Welding">
+    </div>
+    <div class="work-item">
+        <img src="welding-rod.jpg" alt="Welding Rod">
+    </div>
+    <div class="work-item">
+        <img src="metal-rings.jpg" alt="Metal Rings">
+    </div>
+    <div class="work-item">
+        <img src="pipe-connect.jpg" alt="Pipe Connect">
+    </div>
+    <div class="work-item">
+        <img src="shocks.jpg" alt="Shocks">
+    </div>
+    <div class="work-item">
+        <img src="small-shock.jpg" alt="Small Shock">
+    </div>
+    <div class="work-item">
+        <img src="small-rod.jpg" alt="Small Rod">
+    </div>
+    <div class="work-item">
+        <img src="multi-color-seals.jpg" alt="Multi Color Seals">
+    </div>
+    <div class="work-item">
+        <img src="leaked-jack.jpg" alt="Leaked Jack">
+    </div>
+    <div class="work-item">
+        <img src="cleaned-jack.jpg" alt="Cleaned Jack">
+    </div>
+    <div class="work-item">
+        <img src="welded-jack.jpg" alt="Welded Jack">
+    </div>
+    <div class="work-item">
+        <img src="polished-jack.jpg" alt="Polished Jack">
+    </div>
+    <div class="work-item">
+        <img src="damaged.jpg" alt="Damaged">
+    </div>
+    <div class="work-item">
+        <img src="spring-ball.jpg" alt="Spring Ball">
+    </div>
+    <div class="work-item">
+        <img src="pump-repair.jpg" alt="Pump Repair">
+    </div>
+    <div class="work-item">
+        <video autoplay muted loop>
+            <source src="m4.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+</section>
+
+<!-- Floating Contacts -->
+<div class="floating-contact left">
+
+    <button class="main-btn" onclick="toggleContacts('malik')">
+                 <img id="whatsapp-logo" src="whatsapp-green.png" style="background-color:#00f359"> 
+ Abdul Malik</button>
+    <div class="contact-options" id="malik-options">
+        <a href="https://wa.me/96551218361" target="_blank" rel="noopener noreferrer">
+                     <img id="whatsapp-logo" src="small-logo-what.png"> WhatsApp</a>
+        <a href="tel:+96551218361">📲 Call</a>
+    </div> 
+</div>
+
+<div class="floating-contact right">
+   
+      <button class="main-btn" onclick="toggleContacts('iqbal')">
+        <img id="whatsapp-logo" src="whatsapp-green.png" style="background-color:#00f359"> Iqbal Rana</button>
+    <div class="contact-options" id="iqbal-options">
+        <a href="https://wa.me/96566656487" target="_blank" rel="noopener noreferrer">
+            <img id="whatsapp-logo" src="small-logo-what.png"> WhatsApp</a>
+        <a  href="tel:+96566656487">📲 Call</a>
+    </div>
+</div>
+
+
+
+  <!-- Button -->
+
+ <button class="feedback-btn" onclick="document.getElementById('feedbackModal').style.display='flex'">
+   Give Feedback
+</button>
+
+<!-- Modal -->
+<div id="feedbackModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="document.getElementById('feedbackModal').style.display='none'">&times;</span>
+    
+    <!-- Your Google Form -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnCtODRJDvogdXOgA0l53rnB0gEwfOpy5vK8OuWQ14tYegFw/viewform?embedded=true" 
+            width="640" height="1702" frameborder="10" marginheight="0" marginwidth="0">
+      Loading…
+    </iframe>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+ <footer style="text-align:center; color:#aaa; padding:18px 0; font-size:0.95rem;">
+    &copy; 2025 Iqbal Hydraulics. All rights reserved.
+</footer>
+</html>
